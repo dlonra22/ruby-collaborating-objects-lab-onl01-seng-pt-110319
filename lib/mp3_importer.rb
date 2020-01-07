@@ -10,3 +10,5 @@ class MP3Importer
       file.gsub("#{@path}/","")
     end
   end
+  
+end
