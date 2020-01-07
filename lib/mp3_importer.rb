@@ -11,4 +11,8 @@ class MP3Importer
     end
   end
   
+  def import 
+    @file.each do |file|
+      Song.
+  
 end
