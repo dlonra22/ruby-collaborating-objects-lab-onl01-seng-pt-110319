@@ -20,7 +20,7 @@ class Artist
   
   def self.find_or_create_by_name(name)
       findname =  @@all.select{|artist| artist.name == name}
-      findname == [] ?  artist = self.new(name) : findname
+      findname == [] ?  artist = self.new(name) : findname.join
   end
   
   def print_songs
