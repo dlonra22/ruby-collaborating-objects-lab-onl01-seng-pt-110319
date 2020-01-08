@@ -16,6 +16,7 @@ class Song
     artist_name = song_and_art[0]
     @@all<< song
     song
+    binding.pry
   end
   
   def artist_name=
